@@ -58,8 +58,8 @@ public class player extends JPanel implements ActionListener {
             y = 0;
             speedy = 5;
         }
-        if (x > 935) {
-            x = 935;
+        if (x > 910) {
+            x = 910;
         }
         if (y > 900) {
             y = 900;
