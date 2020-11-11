@@ -24,11 +24,7 @@ public class itemhp extends JPanel{
         this.x = x;
         this.y = y;
     }
-    public void paintComponent(Graphics g) {
-        super.paintComponent(g);
-         g.drawImage(char1, x, y, 60, 60, this);
 
-    }
     public void draw(Graphics2D g2d){
         g2d.drawImage(char1, x, y, 60, 60, this);
     }

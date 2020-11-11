@@ -33,7 +33,6 @@ public class player extends JPanel implements ActionListener {
     food food;
     itemhp itemhp;
     Image char1;
-    over o = new over();
     public player(int x, int y) {
         char1 = new ImageIcon("./image/aiR.png").getImage();
 
@@ -150,7 +149,6 @@ public class player extends JPanel implements ActionListener {
     }
 
     public void colision() {
-        Random dice = new Random();
         int number;
 
         for (int i = 0; i < cn.size(); i++) {

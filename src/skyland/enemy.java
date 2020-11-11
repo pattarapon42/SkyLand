@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package skyland;
 
 import java.awt.Color;
@@ -16,11 +12,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import static skyland.player.x;
 import static skyland.player.y;
-
-/**
- *
- * @author ภัทรพล
- */
 public class enemy extends JPanel {
 
     game game;
@@ -38,16 +29,11 @@ public class enemy extends JPanel {
         this.y = y;
         
     }
-    public void paintComponent(Graphics g) {
-        super.paintComponent(g);
-         g.drawImage(char1, x, y, size, 30, this);
-         
-    }
+    
     //วาดเส้นพื้น
     public void draw(Graphics2D g2d) {
         g2d.drawImage(char1, x, y, size, 30, this);
-        //g2d.setColor(Color.darkGray);
-        //g2d.fillRect(x, y, size, 10);
+
     }
 
     public void update() {
